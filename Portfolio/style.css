@@ -1,0 +1,187 @@
+/* === Basic Reset === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #fff;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+  }
+  
+  header {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('https://www.transparenttextures.com/patterns/stardust.png');
+  }
+  
+  header h1 span {
+    color: #e0b3ff;
+    text-shadow: 0 0 10px #c77dff;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #c77dff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #fff;
+    color: #c77dff;
+  }
+  
+  section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #ffb3ec;
+    border-bottom: 2px solid #c77dff;
+    display: inline-block;
+  }
+  
+  .fun-facts li {
+    list-style: none;
+    margin: 10px 0;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .skill {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #c77dff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+  }
+  
+  .soft {
+    font-style: italic;
+    color: #ffe6ff;
+  }
+  
+  .timeline li {
+    margin: 10px 0;
+    padding-left: 20px;
+    border-left: 2px solid #c77dff;
+  }
+  
+  .projects {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .project-card.empty {
+    padding: 40px;
+    border: 2px dashed #c77dff;
+    border-radius: 15px;
+    color: #e0b3ff;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+  }
+  
+  button {
+    padding: 10px;
+    background: #c77dff;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #fff;
+    color: #c77dff;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #aaa;
+    border-top: 1px solid #333;
+  }
+  
+  .tagline {
+    margin-top: 10px;
+    font-style: italic;
+    color: #ffe6ff;
+  }
+  #contact {
+    background: #f7f9fc;
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #contact p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .contact-links a {
+    display: inline-block;
+    background: #e0f0ff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #0077b5;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-links a:hover {
+    background: #0077b5;
+   color:#f7f9fc;
+  }
+  
